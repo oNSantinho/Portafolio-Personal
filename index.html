@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santiago Rico Hernández - Portfolio Personal</title>
+  <meta name="description"
+    content="Portfolio personal de Santiago Rico Hernández. Desarrollador Web en formación aprendiendo HTML y CSS.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Header con navegación -->
+  <header class="header">
+    <div class="header__container">
+      <div class="header__brand">
+        <h1 class="header__name">Santiago Rico Hernández</h1>
+        <p class="header__tagline">Desarrollador Web en Formación</p>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#inicio" class="nav__link nav__link--active">Inicio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#sobre-mi" class="nav__link">Sobre mí</a>
+          </li>
+          <li class="nav__item">
+            <a href="#proyectos" class="nav__link">Proyectos</a>
+          </li>
+          <li class="nav__item">
+            <a href="#habilidades" class="nav__link">Habilidades</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contacto" class="nav__link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main class="main">
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+      <div class="hero__container">
+        <h2 class="hero__title">¡Hola! Soy Santiago Rico Hernández</h2>
+        <p class="hero__subtitle">Desarrollador Web en Formación</p>
+        <p class="hero__description">
+          Estoy aprendiendo HTML y CSS para crear sitios web hermosos
+          y funcionales. Mi pasión: transformar ideas en experiencias
+          web increíbles.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#proyectos" class="button button--primary">Ver Mis Proyectos</a>
+          <a href="#contacto" class="button button--secondary">Contáctame</a>
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__number">2+</span>
+            <span class="stat__label">Meses aprendiendo</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">2+</span>
+            <span class="stat__label">Proyectos de práctica</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">3</span>
+            <span class="stat__label">Tecnologías</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section class="about" id="sobre-mi">
+      <div class="about__container">
+        <h2 class="about__title">Mi Viaje en el Desarrollo Web</h2>
+
+        <p class="about__intro">
+          Soy <strong>desarrollador web en formación</strong>,
+          actualmente aprendiendo HTML y CSS para crear sitios
+          web hermosos y funcionales.
+        </p>
+
+        <p class="about__text">
+          Me apasiona la tecnología y el diseño. Cada día descubro
+          nuevas formas de mejorar mis habilidades y crear
+          mejores experiencias web.
+        </p>
+
+        <blockquote class="quote">
+          <p class="quote__text">
+            "El buen diseño es obvio. El gran diseño es transparente.
+            Mi objetivo es crear sitios web que sean ambos: bellos
+            y funcionales."
+          </p>
+          <cite class="quote__author">— Mi filosofía de aprendizaje</cite>
+        </blockquote>
+
+        <div class="values">
+          <h3 class="values__title">Mis Valores</h3>
+          <ul class="values__list">
+            <li class="values__item">
+              <span class="values__icon">🎯</span>
+              <div>
+                <strong>Dedicación</strong>
+                <span>Comprometido con mi aprendizaje diario</span>
+              </div>
+            </li>
+            <li class="values__item">
+              <span class="values__icon">📚</span>
+              <div>
+                <strong>Curiosidad</strong>
+                <span>Siempre explorando nuevas tecnologías</span>
+              </div>
+            </li>
+            <li class="values__item">
+              <span class="values__icon">🤝</span>
+              <div>
+                <strong>Comunidad</strong>
+                <span>Aprendiendo y compartiendo con otros</span>
+              </div>
+            </li>
+            <li class="values__item">
+              <span class="values__icon">💡</span>
+              <div>
+                <strong>Creatividad</strong>
+                <span>Buscando soluciones innovadoras</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+<br>
+<br>
+    <!-- Proyectos-->
+    <section class="projects" id="proyectos">
+      <div class="projects__container">
+        <h2 class="projects__title">Mis Proyectos de Práctica</h2>
+        <p class="projects__description">
+          Cada proyecto representa mi progreso aprendiendo desarrollo web.
+          Desde páginas simples hasta este portfolio completo.
+        </p>
+
+        <div class="projects__grid">
+  <article class="project project--featured">
+    <div class="project__image">
+      <img src="IMG/image.png" alt="Portafolio Personal">
+      
+    </div>
+    <div class="project__content">
+      <h3 class="project__title">Mi Portfolio Personal</h3>
+      <p class="project__description">
+        Este sitio que estás viendo ahora mismo. Aprendí a usar BEM, hacer responsive, iconos con hover y una estructura limpia con HTML semántico.
+      </p>
+      <div class="project__technologies">
+        <span class="tag">HTML5</span>
+        <span class="tag">CSS3</span>
+        <span class="tag">Responsive</span>
+      </div>
+      <div class="project__links">
+        <a href="#" class="project__link">Ver proyecto</a>
+        <a href="https://github.com/oNSantinho/portfolio" class="project__link">Ver código</a>
+      </div>
+    </div>
+  </article>
+
+        <article class="project">
+  <div class="project__image">
+    <img src="IMG/Captura de pantalla 2026-02-17 124434.png" alt="Formulario Simple">
+    
+  </div>
+  <div class="project__content">
+    <h3 class="project__title">Formulario de Contacto Básico</h3>
+    <p class="project__description">
+      Un formulario limpio y responsive para practicar inputs, labels y estilos básicos. ¡Mi segundo proyecto real!
+    </p>
+    <div class="project__technologies">
+      <span class="tag">HTML5</span>
+      <span class="tag">CSS3</span>
+        </div>
+          <div class="project__links">
+            <a href="https://onsantinho.github.io/Formulario.Practica/" class="project__link">Ver proyecto</a>
+            <a href="https://github.com/oNSantinho/Formulario.Practica/blob/main/index.html" class="project__link">Ver código</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Habilidades - versión con iconos y efecto hover -->
+    <section class="skills" id="habilidades">
+      <div class="skills__container">
+        <h2 class="skills__title">Mis Habilidades</h2>
+
+        <h3 class="skills__subtitle">Tecnologías que estoy aprendiendo</h3>
+
+        <div class="skills__list">
+          <div class="skill">
+            <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge.svg" 
+                 alt="HTML5" class="skill__icon">
+            <h4 class="skill__name">HTML5 & Semántica</h4>
+          </div>
+
+          <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" 
+                 alt="CSS3" class="skill__icon">
+            <h4 class="skill__name">CSS3 & Diseño</h4>
+          </div>
+
+          <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" 
+                 alt="JavaScript" class="skill__icon">
+            <h4 class="skill__name">JavaScript</h4>
+          </div>
+        </div>
+
+        <div class="learning">
+          <h3 class="learning__title">Actualmente aprendiendo:</h3>
+          <ul class="learning__list">
+            <li class="learning__item">
+              <img src="https://cdn-icons-png.flaticon.com/512/919/919831.png" alt="Flexbox/Grid" class="learning__icon">
+              <span class="learning__text">Flexbox y Grid Layout</span>
+            </li>
+            <li class="learning__item">
+              <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="Animaciones CSS" class="learning__icon">
+              <span class="learning__text">Animaciones CSS</span>
+            </li>
+            <li class="learning__item">
+              <img src="https://cdn-icons-png.flaticon.com/512/1087/1087815.png" alt="Responsive" class="learning__icon">
+              <span class="learning__text">Diseño Responsive</span>
+            </li>
+            <li class="learning__item">
+              <img src="https://aaardvarkaccessibility.com/wp-content/uploads/2023/08/Accessibility.png" alt="Accesibilidad" class="learning__icon">
+              <span class="learning__text">Accesibilidad Web</span>
+            </li>
+            <li class="learning__item">
+              <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="Mejores prácticas" class="learning__icon">
+              <span class="learning__text">Mejores prácticas</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact" id="contacto">
+      <div class="contact__container">
+        <h2 class="contact__title">¿Te gustaría conectar?</h2>
+        <p class="contact__description">
+          Siempre estoy buscando aprender de otros desarrolladores,
+          compartir experiencias y tal vez colaborar en proyectos
+          interesantes.
+        </p>
+
+        <div class="contact__methods">
+  <a href="mailto:santiagorico413@gmail.com" class="contact__icon-link" title="Escríbeme por email">
+    <span class="contact__icon">📧</span>
+  </a>
+
+  <a href="https://github.com/oNSantinho" class="contact__icon-link" target="_blank" title="Mi GitHub">
+    <span class="contact__icon">💻</span>
+  </a>
+
+  <a href="https://www.linkedin.com/in/santiago-rico-hernández-4b66263b1/" class="contact__icon-link" target="_blank" title="Mi LinkedIn">
+    <span class="contact__icon">💼</span>
+  </a>
+</div>
+
+        <a href="#" class="button button--primary button--large">
+          📄 Descargar CV (PDF)
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__container">
+      <nav class="footer__nav">
+        <a href="#inicio" class="footer__link">Inicio</a>
+        <a href="#sobre-mi" class="footer__link">Sobre mí</a>
+        <a href="#proyectos" class="footer__link">Proyectos</a>
+        <a href="#habilidades" class="footer__link">Habilidades</a>
+        <a href="#contacto" class="footer__link">Contacto</a>
+      </nav>
+
+      <p class="footer__copyright">
+        © 2026 Santiago Rico Hernández - Portfolio Personal
+      </p>
+
+      <p class="footer__credits">
+        Diseñado y desarrollado con ❤️ mientras aprendo HTML y CSS
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
